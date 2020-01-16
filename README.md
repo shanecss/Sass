@@ -38,7 +38,9 @@ sass --style compressed input.scss output.css
 **对于scss文件，最终要编译成css文件才能使用，编译也很简单，只要再Ruby终端输入：sass input.scss output.css**
 ## 3.1 Sass使用：第一个Sass文件
 #### 新建一个名为testFile文件夹，在文件夹里面分别新建一个index.html和css文件夹；然后再在css文件夹中新建一个index.scss：
+
 ![新建文件夹](images/20200116154920.png)
+
 **index.html：**
 ```
 <!DOCTYPE html>
@@ -46,6 +48,7 @@ sass --style compressed input.scss output.css
 <head>
     <meta charset="UTF-8">
     <title>第一个Sass文件</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     <div class="iBox">第一个Sass文件</div>
@@ -70,10 +73,17 @@ $box-bgcolor:red;
 ```
 **在Ruby终端编译：sass index.scss index.css**
 ![编译](images/20200116160305.png)
+
 ![编译后生成的文件](images/20200116160529.png)
+
 **然后在index.html文件中引入编译后的文件index.css**
+
 **index.css：**
+
 ![编译后css文件](images/20200116160814.png)
+
 **最终呈现效果：**
+
 ![效果图](images/20200116161107.png)
-**注意：每次修改index.scss文件后都要再次编译，不然修改的样式不能呈现**
+### 注意：
+&emsp;&emsp;**每次修改index.scss文件后都要再次编译，不然修改的样式不能呈现**
