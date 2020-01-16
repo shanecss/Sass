@@ -48,6 +48,7 @@ sass --style compressed input.scss output.css
 <head>
     <meta charset="UTF-8">
     <title>第一个Sass文件</title>
+    <!-- 先编译，再引入编译后的文件 -->
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
@@ -75,9 +76,7 @@ $box-bgcolor:red;
 ![编译](images/20200116160305.png)
 
 ![编译后生成的文件](images/20200116160529.png)
-
-**然后在index.html文件中引入编译后的文件index.css**
-
+### 然后在index.html文件中引入编译后的文件index.css
 **index.css：**
 
 ![编译后css文件](images/20200116160814.png)
