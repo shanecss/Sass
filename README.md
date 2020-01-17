@@ -29,5 +29,5 @@ $ sass-convert style.sass style.scss
 $ sass-convert style.scss style.sass
 ```
 ## 使用 Sass (Using Sass)
-+ [Ruby](https://rubyinstaller.org/downloads/)
-+ Sass
++ [1.1-Sass本地环境搭建及测试使用](https://github.com/shanecss/Sass/blob/master/1.1-Sass%E6%9C%AC%E5%9C%B0%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA%E5%8F%8A%E6%B5%8B%E8%AF%95%E4%BD%BF%E7%94%A8.md)
++ [2.1-Sass教程：变量和嵌套CSS规则](https://github.com/shanecss/Sass/blob/master/2.1-Sass%E6%95%99%E7%A8%8B%EF%BC%9A%E5%8F%98%E9%87%8F%E5%92%8C%E5%B5%8C%E5%A5%97CSS%E8%A7%84%E5%88%99.md)
